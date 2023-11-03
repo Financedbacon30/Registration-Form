@@ -23,11 +23,11 @@
                 <label for="lname">
                     Last Name:
                     <input type="text" name="lname" id="lname" required placeholder="Last Name" />
-                </label>
+                </label><br>
                 <label>
                     Email:
                     <input type="email" name="fname" id="email" required placeholder="Email" />
-                </label>
+                </label><br>
 
 
 
@@ -39,7 +39,7 @@
                         <option value="Kirsten Markley">
                         <option value="Jackson Lewis">
                     </datalist>
-                </label>
+                </label><br>
 
                 <label for="Month">Month:
                     <input list="Month" required placeholder="Month">
@@ -61,10 +61,10 @@
                 </label>
 
                 <!--Number input-->
+                <label for="day_num">What day are you wanting?</label>
+                <input type="number" id="day_num" name="day_num" min="1" max="31" step="1" value="1">
 
-
-
-
+               
                 <!--Radio Buttons-->
                 <p>When in the day do you want?</p>
                 <input type="radio" id="am" name="radio_button" value="AM">
@@ -83,7 +83,13 @@
                 <input type="checkbox" id="class4" name="class4" value="CIS-131">
                 <label for="class4">CIS-131 Web Site Development 2</label><br>
                 <input type="checkbox" id="class5" name="class5" value="CIS-150">
-                <label for="class5">CIS-150 C# Programming 1</label>
+                <label for="class5">CIS-150 C# Programming 1</label><br><br>
+
+                <!--Text area-->
+                <p> Anything specific you want to discuss or learn?</p>
+                <textarea name="info" rows="5" cols="30"></textarea>
+
+
 
 
 
