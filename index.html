@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>
+                    Contact Information
+                </legend>
+                <label for="fname">
+                    First Name:
+                    <input autofocus type="text" name="fname" id="fname" required placeholder="First Name" />
+                </label>
+                <label for="lname">
+                    Last Name:
+                    <input type="text" name="lname" id="lname" required placeholder="Last Name" />
+                </label>
+                <label>
+                    Email:
+                    <input type="email" name="fname" id="email" required placeholder="Email" />
+                </label>
+
+
+
+                <!--Drop downs-->
+                <label for="Teachers"> Teacher:
+                    <input list="Teachers" required placeholder="Teacher">
+                    <datalist id="Teachers">
+                        <option value="Tiffany Ford">
+                        <option value="Kirsten Markley">
+                        <option value="Jackson Lewis">
+                    </datalist>
+                </label>
+
+                <label for="Month">Month:
+                    <input list="Month" required placeholder="Month">
+                    <datalist id="Month">
+                        <option value="January">
+                        <option value="February">
+                        <option value="March">
+                        <option value="April">
+                        <option value="May">
+                        <option value="June">
+                        <option value="July">
+                        <option value="August">
+                        <option value="September">
+                        <option value="October">
+                        <option value="November">
+                        <option value="December">
+
+                    </datalist>
+                </label>
+
+                <!--Number input-->
+
+
+
+
+                <!--Radio Buttons-->
+                <p>When in the day do you want?</p>
+                <input type="radio" id="am" name="radio_button" value="AM">
+                <label for="am">AM</label><br>
+                <input type="radio" id="pm" name="radio_button" value="PM">
+                <label for="pm">PM</label>
+
+                <!--Checkboxes-->
+                <p>What Classes are you wanting to take?</p>
+                <input type="checkbox" id="class1" name="class1" value="CIS-120">
+                <label for="class1">CIS-120 Intro to Computer Programming </label><br>
+                <input type="checkbox" id="class2" name="class2" value="CIS-125">
+                <label for="class2">CIS-125 Inro Computer Game Develop</label><br>
+                <input type="checkbox" id="class3" name="class3" value="CIS-130">
+                <label for="class3">CIS-130 Web Site Development 1</label><br>
+                <input type="checkbox" id="class4" name="class4" value="CIS-131">
+                <label for="class4">CIS-131 Web Site Development 2</label><br>
+                <input type="checkbox" id="class5" name="class5" value="CIS-150">
+                <label for="class5">CIS-150 C# Programming 1</label>
+
+
+
+            </fieldset>
+            <input class="submit" type="submit" value="Submit" />
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
